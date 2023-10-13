@@ -1,4 +1,5 @@
 from comando_formateador import FormateadorComando
 
 class Cursiva(FormateadorComando):
-    pass
+   def execute(self):
+    return "_{}_".format(self.text)
