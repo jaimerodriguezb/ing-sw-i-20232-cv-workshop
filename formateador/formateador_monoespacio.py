@@ -1,4 +1,5 @@
 from comando_formateador import FormateadorComando
 
 class Mono(FormateadorComando):
-    pass
+    def execute(self):
+        return "```{}```".format(self.texto)
