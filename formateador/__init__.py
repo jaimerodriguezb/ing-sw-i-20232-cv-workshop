@@ -1,6 +1,6 @@
 from comando_formateador import FormateadorComando
 from formateador_cursiva import Cursiva
-from formateador_monoespacion import Mono
+from formateador_monoespacio import Mono
 
 class Compound(FormateadorComando): 
     def __init__(self, text="asdasdasdssa"):
