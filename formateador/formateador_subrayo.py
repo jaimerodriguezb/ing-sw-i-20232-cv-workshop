@@ -2,4 +2,4 @@ from comando_formateador import FormateadorComando
 
 class Subrayo(FormateadorComando):
     def execute(self):
-        return "~"+self.texto+"~"
+        return "*~~*".format(self.texto)
